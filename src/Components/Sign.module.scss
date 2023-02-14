@@ -1,0 +1,224 @@
+// .container{
+//     padding: 10px;
+//     width: 662px;
+//     height: 471px;
+// }
+// .e_mail, .password{
+//     background-color: #A2B3C3;
+//     width: 638px;
+//     height: 38px;
+//     border: 1px solid #46566D;
+//     border-radius: 3px;
+//     padding-left: 10px;
+//     font-size:15px;
+//     }
+// .e_mail{
+//     margin-bottom: 25px;
+//     margin-top: 35px;
+// }
+// .password{
+//     margin-bottom: 25px; 
+// }
+// .login_button{
+//     background-color: rgba(11, 33, 47, 1);
+//     height: 38px;
+//     border-radius: 3px;
+//     color: rgba(255, 255, 255, 1);
+//     margin-bottom: 25px;
+//     width: 652px;
+//     font-size:20px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .line{
+//     margin-bottom: 25px;
+//     margin-top: 25px;
+//     border-bottom: 1px solid black;
+//     width: 559.88px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+// .forgot{
+//     font-size:20px;
+//     a{color:white;}
+// }
+// .icons{
+//     margin-top:25px;
+//     display: flex;
+//     justify-content: space-around;
+//     width: 200px;
+//     margin-left:auto;
+//     margin-right: auto;
+// }
+
+// .icon{
+//     width: 26px;
+//     height: 25px;
+// }
+// #a{
+//     width: 24px;
+//     height: 26px;
+// }
+// button{
+//     background-color: rgba(245, 222, 179, 0);
+// }
+// .sign_button{
+//     background-color: rgba(205, 212, 220, 1);
+//     height: 38px;
+//     border-radius: 3px;
+//     color:  rgba(70, 86, 109, 1);
+//     margin-top: 25px;
+//     width: 652px;
+//     border:none;
+//     font-size: 15px;
+// }
+// button, input,  button:active, button:focus{
+//     outline:none !important
+// }
+
+// *{
+//     font-family: 'Ubuntu';
+//     src: url('../assets/Ubuntu-Light.ttf');
+//     font-style:normal;
+//     font-weight: normal;
+// }
+
+// .icons_container{
+// font-size: 15px;
+// }
+
+.container{
+    width: 546px;
+    height: 1019px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+.cross{
+    background: transparent;
+    border:0;
+    padding:0;
+    outline:none;
+    margin:0;
+    // opacity: 0;
+}
+
+.cross_button{
+    display: flex;
+    justify-content: end;
+    padding-right: 84px;
+    padding-top:68px;
+}
+
+.login_h3{
+    font-size: 32px;
+    margin-top:63px;
+    color: rgba(126, 141, 242, 1);
+    h3{
+        margin:0;
+    }
+}
+
+.email_container{
+    margin-top: 42px;
+    text-align: start;
+    margin-left: 76px;
+    p{
+        font-size: 15px;
+        color: rgba(126, 141, 242, 1);
+    }
+}
+
+
+.input_email{
+    display: flex;
+    margin-left: 7.84px;
+}
+
+.email_icon{
+    height: 15px;
+    width: 18px;
+}
+
+.e_mail, .password{
+    background: transparent;
+    border:none;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size:15px;
+    margin-bottom: 12px;
+    }
+
+    .line{
+        border-bottom: 1px solid rgba(105, 105, 105, 1);
+        width: 375px;
+        left: 83px;
+        top: 294px;
+        margin-bottom: 30px;
+        }
+        .tick{
+            height: 18px;
+            background: transparent;
+            border:0;
+            padding:0;
+            outline:none;
+        }
+        .forget{
+            display: flex;
+            justify-content:start;
+            a{
+            padding-left: 76px;
+                    color: black;
+            }
+
+            p{
+                margin: 10px 0px 40px;
+                font-family:Arial, Helvetica, sans-serif
+            }
+            margin-left: 40px;
+            margin-right: 40PX;
+        }
+
+        .login_button{
+            width: 386px;
+            height: 52px;
+            background: linear-gradient(91.74deg, #7E8DF2 23.76%, #8ABAFF 66.55%, #AB9DFF 104.82%);
+            border-radius: 100px;
+            font-size: 15px;
+            color: white;
+        }
+
+        .icons_container{
+            font-size: 15px;
+            margin-top:42px;
+            font-family:Arial, Helvetica, sans-serif;
+            }
+            .signin{
+                margin-top:32px;
+                font-family:Arial, Helvetica, sans-serif;
+                p{
+                    margin-bottom:54px;
+            }
+        }
+            .icon{
+                width: 40px;
+                height: 40px;
+            }
+
+            .icons{
+                margin-top:25px;
+                display: flex;
+                justify-content: space-around;
+                width: 200px;
+                margin-left:auto;
+                margin-right: auto;
+                a{
+                    padding:0;
+                }
+                #one{
+                    margin-left: 46px;
+                }
+            }
